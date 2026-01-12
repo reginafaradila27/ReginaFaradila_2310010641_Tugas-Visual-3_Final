@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu_Utama">
+    <property name="title">
+     <string>Menu Utama</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionData_Admin"/>
+    <addaction name="actionData_Agenda"/>
+    <addaction name="actionData_Kelurahan"/>
+    <addaction name="actionData_Laporan"/>
+    <addaction name="actionData_Orang_Penting"/>
+    <addaction name="actionData_Proses"/>
+    <addaction name="actionData_Super_Admin"/>
+    <addaction name="actionData_User"/>
+   </widget>
+   <addaction name="menuMenu_Utama"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionData_Admin">
+   <property name="text">
+    <string>Data Admin</string>
+   </property>
+  </action>
+  <action name="actionData_Agenda">
+   <property name="text">
+    <string>Data Agenda</string>
+   </property>
+  </action>
+  <action name="actionData_Kelurahan">
+   <property name="text">
+    <string>Data Kelurahan</string>
+   </property>
+  </action>
+  <action name="actionData_Laporan">
+   <property name="text">
+    <string>Data Laporan </string>
+   </property>
+  </action>
+  <action name="actionData_Orang_Penting">
+   <property name="text">
+    <string>Data Orang_Penting</string>
+   </property>
+  </action>
+  <action name="actionData_Proses">
+   <property name="text">
+    <string>Data Proses</string>
+   </property>
+  </action>
+  <action name="actionData_Super_Admin">
+   <property name="text">
+    <string>Data Super_Admin</string>
+   </property>
+  </action>
+  <action name="actionData_User">
+   <property name="text">
+    <string>Data User</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

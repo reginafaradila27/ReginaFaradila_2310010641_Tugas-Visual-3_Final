@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>670</width>
+    <height>312</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>231</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="id_Laporan">
+      <property name="text">
+       <string>Id Laporan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineidlaporan"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="Judul_Laporan">
+      <property name="text">
+       <string>Judul Laporan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="linejudullaporan"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="Lokasi_Laporan">
+      <property name="text">
+       <string>Lokasi Laporan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="linelokasilaporan"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="Jenis_Laporan">
+      <property name="text">
+       <string>Jenis Laporan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="linejenislaporan"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="Deskripsi">
+      <property name="text">
+       <string>Deskripsi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="linedeskripsi"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="iduser">
+      <property name="text">
+       <string>Id User</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="lineiduser"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QPushButton" name="btnSimpan">
+      <property name="text">
+       <string>SIMPAN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QPushButton" name="btnUbah">
+      <property name="text">
+       <string>UBAH</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QPushButton" name="btnHapus">
+      <property name="text">
+       <string>HAPUS</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLineEdit" name="lineCari">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>211</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tblLaporan">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>40</y>
+     <width>431</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Id Laporan</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Judul Laporan</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Lokasi Laporan</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Jenis Laporan</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Deskripsi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Id User</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>240</y>
+     <width>271</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="FillterDatalabel">
+      <property name="text">
+       <string>Fillter Data</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboFillter">
+      <item>
+       <property name="text">
+        <string>Semua</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="btnCetak">
+      <property name="text">
+       <string>Cetak</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
